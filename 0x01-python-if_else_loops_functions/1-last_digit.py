@@ -7,11 +7,11 @@ if number < 0:
     re = (num % 10) * (-1)
     r = num * (-1)
     if re > 5:
-       p = "Last digit of {} is {} and is greater than 5"
+        p = "Last digit of {} is {} and is greater than 5"
     elif re == 0:
-       p = "Last digit of {} is {} and is 0"
+        p = "Last digit of {} is {} and is 0"
     elif re < 6:
-       p = "Last digit of {} is {} and is less than 6 and not 0"
+        p = "Last digit of {} is {} and is less than 6 and not 0"
     print(p.format(r, re))
 elif number >= 0:
     rem = number % 10
