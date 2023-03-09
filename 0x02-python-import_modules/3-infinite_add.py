@@ -15,4 +15,5 @@ if __name__ == "__main__":
         while i < len(sys.argv):
             a = a + int(sys.argv[i])
             i = i + 1
-    print(a)
+
+        print(a)
