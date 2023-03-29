@@ -1,11 +1,13 @@
 #!/usr/bin/python3
-"""Square Class
-Created on the 29th of March, 2023.
+# -*- coding: utf-8 -*-
+"""
+Created on March 29, 2023.
 """
 
 
 class Square:
-"""Square Class
-This class don't do anything for the moment
-"""
+    """Empty class Square that defines a square
+    Attributes:
+        empty
+    """
     pass
