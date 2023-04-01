@@ -6,9 +6,11 @@ Created on April 1, 2023.
 
 
 class Square:
-
+    """
+    A square class
+    """
     def __init__(self, size):
-    """Empty class Square that defines a square
+    """
     Attributes:
         size (int): Size of the square
     """
