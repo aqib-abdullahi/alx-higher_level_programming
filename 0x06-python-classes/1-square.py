@@ -1,13 +1,8 @@
 #!/usr/bin/python3
-"""
-Created on April 1, 2023.
-"""
-
+"""Created on April 1, 2023."""
 
 class Square:
-    """
-    A square class
-    """
+    """ A square class"""
 
     def __init__(self, size):
     """Initialize square
