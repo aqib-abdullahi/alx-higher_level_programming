@@ -131,7 +131,7 @@ class Rectangle:
         """
         class method tat defines a quare
         """
-        return cls(size, size)
+            return cls(size, size)
 
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
