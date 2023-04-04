@@ -39,7 +39,7 @@ class Rectangle:
         to be able to recreate a new instance by using eval()
         """
         return "Rectangle(" + str(self.__width) + ", " + str(self.__height) +\
-                ")"
+            ")"
 
     def area(self):
         """
