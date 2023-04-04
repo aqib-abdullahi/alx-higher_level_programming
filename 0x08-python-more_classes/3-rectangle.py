@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Created on 3rd April, 2023
+Created on 4th April, 2023
 A rectangle class
 """
 
@@ -23,6 +23,8 @@ class Rectangle:
         returns a string rep of given param
         """
         string = ""
+        if self.__height == 0 or self.__width == 0:
+            return string
         for i in range(self.__height):
             for j in range(self.__width):
                 string += "#"
