@@ -126,13 +126,6 @@ class Rectangle:
         """
         return self.__width * self.__height
 
-    @classmethod
-        def square(cls, size=0):
-        """
-        class method tat defines a quare
-        """
-            return cls(size, size)
-
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """
@@ -149,3 +142,10 @@ class Rectangle:
             return rect_2
         if rect_1 == rect_2:
             return rect_1
+
+    @classmethod
+    def square(cls, size=0):
+        """
+        class method tat defines a quare
+        """
+        return cls(size, size)
