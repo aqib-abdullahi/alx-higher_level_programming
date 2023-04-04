@@ -26,7 +26,7 @@ class Rectangle:
         for i in range(self.__height):
             for j in range(self.__width):
                 string += "#"
-                if j = self.__width:
+                if i < self.__height - 1:
                 string += "\n"
         return string
 
