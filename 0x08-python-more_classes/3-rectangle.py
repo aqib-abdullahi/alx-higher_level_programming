@@ -20,6 +20,7 @@ class Rectangle:
 
     def __str__(self):
         """
+        str method to print rectangle
         returns a string rep of given param
         """
         string = ""
@@ -44,6 +45,8 @@ class Rectangle:
         """
         returns the rectangle perimeter
         """
+        if self.__width == 0 or self.__height == 0:
+            return 0
         return self.__height + self.__height + self.__width + self.__width
 
     @property
