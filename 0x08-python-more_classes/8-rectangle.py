@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Created on 4th April, 2023
 A rectangle class
