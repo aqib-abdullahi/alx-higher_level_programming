@@ -4,10 +4,9 @@
 
 
 class Mylist(list):
-    """
-    A class to customize the list class
-    and prints the list with a method
-    """
+    """A class to customize the list class
+       and prints the list with a method"""
+
     def print_sorted(self):
         """
         Prints a list in ascending order
