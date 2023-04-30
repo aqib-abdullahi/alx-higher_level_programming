@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""Modiuule prints a list in ascneding order"""
+"""Modiuule prints a list in ascneding order
+"""
 
 
 class Mylist(list):
     """
     A class to customize the list class
     """
-
     def print_sorted(self):
         """
         Prints a list in ascending order
