@@ -1,3 +1,3 @@
-#!/usr/bin/nde
+#!/usr/bin/node
 
 myVar = 333;
