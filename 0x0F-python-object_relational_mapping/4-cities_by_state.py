@@ -5,7 +5,7 @@ the database `hbtn_0e_4_usa`.
 """
 
 import MySQLdb
-from sys import argv
+import sys
 
 if __name__ == '__main__':
     """
